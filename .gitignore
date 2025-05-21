@@ -175,6 +175,4 @@ cython_debug/
 
 # Other
 .DS_Store
-_set_default_device.txt
-
-
+_ignore
