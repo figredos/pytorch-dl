@@ -62,8 +62,8 @@ if MODEL_NAME[-3:] != "pth" and MODEL_NAME[-2:] != 'pt':
     MODEL_NAME += ".pth"
 
 # Setup directories
-train_dir = "../data/pizza_steak_sushi/train"
-test_dir = "../data/pizza_steak_sushi/test"
+train_dir = "../../data/pizza_steak_sushi/train"
+test_dir = "../../data/pizza_steak_sushi/test"
 
 # Setup target device
 if torch.cuda.is_available():
