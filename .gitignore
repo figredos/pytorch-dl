@@ -176,3 +176,7 @@ cython_debug/
 # Other
 .DS_Store
 _ignore
+data/*/
+runs
+models/
+
